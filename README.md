@@ -1,28 +1,29 @@
 # WordHistogram
 
-Este projeto Java implementa um histograma de palavras simples.
+This Java project implements a simple word histogram.
 
-## Descrição
-O programa analisa uma string de texto, conta a frequência de cada palavra e permite consultar a contagem de uma palavra específica.
+## Description
+The program analyzes a text string, counts the frequency of each word, and allows querying the count of a specific word.
 
-## Estrutura do Projeto
-- `Main.java`: Classe principal para execução do programa.
-- `WordHistogram.java`: Classe responsável pela análise e contagem das palavras.
-- `MyIterator.java`: (Opcional) Implementação de um iterador personalizado, se necessário.
+## Project Structure
+- `Main.java`: Main class to run the program.
+- `WordHistogram.java`: Class responsible for analyzing and counting words.
+- `MyIterator.java`: (Optional) Custom iterator implementation, if needed.
 
-## Como Executar
-1. Compile os arquivos Java:
+## How to Run
+1. Compile the Java files:
    ```sh
    javac src/*.java
    ```
-2. Execute o programa principal:
+2. Run the main program:
    ```sh
    java -cp src Main
    ```
 
-## Exemplo de Uso
-O programa analisa a string:
+## Example Usage
+The program analyzes the string:
 ```
-olá, meu nome é raquel Raquel
+hello, my name is raquel Raquel
 ```
-E imprime a contagem da palavra "raquel" (ignorando maiúsculas/minúsculas).
+And prints the count for the word "raquel" (case-insensitive).
+
